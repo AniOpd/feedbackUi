@@ -64,3 +64,15 @@ body {
 .rating img {
   width: 40px;
 }
+@media screen and (max-width:768px) {
+  .rating-container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  .rating{
+    padding: .2rem;
+    margin: .5rem .5rem;
+    font-size: 1.2rem;
+  }
+}
